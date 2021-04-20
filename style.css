@@ -1,0 +1,66 @@
+#container{
+  position: relative;
+  height:381px;
+  width: 801px;
+  margin:0 auto;
+background-color:blue;
+}
+#canvas
+ { position:absolute;
+   top: 0;
+    left: 0;
+     border:1px solid #000000;
+ }
+ #cover
+ { position: absolute;
+   background-color:#000000;
+    opacity: 0.3;
+     width: 801px;
+      height: 381px;
+       display: none;
+       }
+       #title
+       { position: absolute;
+         top: 60px;
+          left: 317px;
+           width: 190px;
+            height: 60px;
+             font-family: Cambria, serif;
+              font-size: 22px;
+               font-weight: bold;
+                color: darkblue;
+               }
+               #title
+               { position: absolute;
+                 top: 60px;
+                  left: 317px; 
+                  width: 190px;
+                   height: 60px;
+                    font-family: Cambria, serif;
+                     font-size: 22px; 
+                     font-weight: bold;
+                      color: darkblue;
+                     }
+                     #warning
+                     { position: absolute;
+                       color: darkred;
+                        font-family: Cambria, serif; 
+                        font-size: 22px; 
+                        top: 100px; 
+                        left: 300px; 
+                      }
+                      .button
+                      { width: 120px; 
+                        height: 60px;
+                         font-size: 17px;
+                          border-radius: 5px; 
+                          font-weight: bold; 
+                        }
+                        #start
+                        { position: absolute;
+                         }
+                          #restart
+                          { position: absolute;
+                             display: none;
+                             }
+                             
